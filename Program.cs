@@ -20,7 +20,7 @@ namespace web
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
-                .UseUrls("http://0.0.0.0:5000/")
+                .UseUrls("https://routewqbmqjje-masdelmon2-che.4e1e.starter-us-east-1b.openshiftapps.com:5000/")
 		.Build();
 	
     }
